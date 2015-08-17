@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Akka", "Akka", "{AE0CE297-D0B0-41DA-B350-5A117A700CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdService.Akka.Host", "akka\AdService.Akka.Host\AdService.Akka.Host.csproj", "{4F6B954F-F6B6-4CF0-B7F1-FF2464C5D7E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{753E8F26-DA62-4C9A-87FD-0A57D30E193A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdService.Akka.Actors", "Akka\AdService.Akka.Actors\AdService.Akka.Actors.csproj", "{1B3A89CE-2266-44DC-9193-F1F49349C3E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdService.Akka.Messages", "Akka\AdService.Akka.Messages\AdService.Akka.Messages.csproj", "{58D010BD-D326-46DB-802C-EDA729FBB725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdService.Web", "Web\AdService.Web\AdService.Web.csproj", "{F74C2A65-B09F-4CF3-95C7-90030A72216F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F6B954F-F6B6-4CF0-B7F1-FF2464C5D7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6B954F-F6B6-4CF0-B7F1-FF2464C5D7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6B954F-F6B6-4CF0-B7F1-FF2464C5D7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6B954F-F6B6-4CF0-B7F1-FF2464C5D7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B3A89CE-2266-44DC-9193-F1F49349C3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3A89CE-2266-44DC-9193-F1F49349C3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3A89CE-2266-44DC-9193-F1F49349C3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3A89CE-2266-44DC-9193-F1F49349C3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D010BD-D326-46DB-802C-EDA729FBB725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D010BD-D326-46DB-802C-EDA729FBB725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D010BD-D326-46DB-802C-EDA729FBB725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D010BD-D326-46DB-802C-EDA729FBB725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74C2A65-B09F-4CF3-95C7-90030A72216F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74C2A65-B09F-4CF3-95C7-90030A72216F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74C2A65-B09F-4CF3-95C7-90030A72216F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74C2A65-B09F-4CF3-95C7-90030A72216F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F6B954F-F6B6-4CF0-B7F1-FF2464C5D7E1} = {AE0CE297-D0B0-41DA-B350-5A117A700CD9}
+		{1B3A89CE-2266-44DC-9193-F1F49349C3E0} = {AE0CE297-D0B0-41DA-B350-5A117A700CD9}
+		{58D010BD-D326-46DB-802C-EDA729FBB725} = {AE0CE297-D0B0-41DA-B350-5A117A700CD9}
+		{F74C2A65-B09F-4CF3-95C7-90030A72216F} = {753E8F26-DA62-4C9A-87FD-0A57D30E193A}
+	EndGlobalSection
+EndGlobal
