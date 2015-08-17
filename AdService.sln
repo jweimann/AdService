@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdService.Akka.Messages", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdService.Web", "Web\AdService.Web\AdService.Web.csproj", "{F74C2A65-B09F-4CF3-95C7-90030A72216F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lighthouse", "Lighthouse", "{95607041-1310-4981-B365-B05B2D4F1CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lighthouse", "Lighthouse\Lighthouse.csproj", "{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{F74C2A65-B09F-4CF3-95C7-90030A72216F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F74C2A65-B09F-4CF3-95C7-90030A72216F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F74C2A65-B09F-4CF3-95C7-90030A72216F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +54,6 @@ Global
 		{1B3A89CE-2266-44DC-9193-F1F49349C3E0} = {AE0CE297-D0B0-41DA-B350-5A117A700CD9}
 		{58D010BD-D326-46DB-802C-EDA729FBB725} = {AE0CE297-D0B0-41DA-B350-5A117A700CD9}
 		{F74C2A65-B09F-4CF3-95C7-90030A72216F} = {753E8F26-DA62-4C9A-87FD-0A57D30E193A}
+		{87BE1ABF-1F59-41AB-A3CB-4B1E7E0B218A} = {95607041-1310-4981-B365-B05B2D4F1CAB}
 	EndGlobalSection
 EndGlobal
